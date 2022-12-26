@@ -10,8 +10,48 @@
 </head>
 <body>
     <header>
-        <h1>Nous contactez</h1>
+        <h1>Nous contacter</h1>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Osmose</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="index.html">Acceuil</a>
+                  <a class="nav-link" href="#Activité">Nos Activités</a>
+                  <a class="nav-link" href="LesEvenements.html">Les Evenements</a>
+                  <a class="nav-link" href="Apropos.html">A propos</a>
+                  <a class="nav-link" href="Contact.html">Nous contactez</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
+
+    <main>
+      <section id="contact">
+        <div class="container">
+          <div class="title">
+            <h2>Vous avez une question ?</h2>
+            <h3>Formulaire de Contact</h3>
+          </div>
+                    
+            <form action="#" method="post">
+              <label for="firstname"> Nom :</label>
+              <input type="text"  name="firstname" id="firstname" placeholder="Entrer votre nom" required>
+              <label for="name" >Prénom :</label>
+              <input type="text"   name="name" id="name" placeholder="Entrer votre prenom" required>
+              <label for="email" >E-mail :</label>
+              <input type="email"  name="email" id="email" placeholder="Entrer votre email" required>
+              <label for="message" >Votre message :</label>
+              <textarea name="message"  id="message" placeholder="Veiller écrire votre message..."></textarea>
+             <button type="submit" class="btn btn-success">Valider</button>
+            </form>
+        </div>
+      </section>
+    </main>
     
 
 
